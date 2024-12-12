@@ -1,0 +1,38 @@
+/* Style header */
+header {
+    background-color: #ffcc99; /* Couleur d'arrière-plan */
+    text-align: center; /* Centrer le texte */
+    font-weight: bold; /* Mettre en gras le texte */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Ombre */
+
+}
+
+/* Style main */
+main {
+    display: flex; /* Utiliser Flexbox */
+    background-color: #e6f2ff; /* Couleur d'arrière-plan */
+
+}
+
+/* Style pour aside */
+aside {
+    background-color: #b3d9ff; /* Couleur d'arrière-plan */
+    flex: 1; /* Prendre 1 partie de l'espace */
+    border: 1px solid #CCC; /* Bordure grise */
+   
+}
+
+/* Style pour le contenu principal */
+section {
+    margin: 20px;
+    flex: 3; /* Prendre 3 parties de l'espace */
+
+}
+
+/* Style footer */
+footer {
+    background-color: #99cc99; /* Couleur d'arrière-plan */
+    text-align: center; /* Centrer le texte */
+    border: 1px solid #CCC; /* Bordure grise */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Ombre */
+}

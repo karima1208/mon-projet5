@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column; /* Aligne les éléments en colonne */
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    min-height: 100vh; /* Remplit toute la hauteur de la fenêtre */
+    padding: 20px;
+}
+
+/* Titre principal */
+h1 {
+    font-size: 2.5em;
+    color: #1e90ff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Image du groupe */
+img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Description du groupe */
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: center; /* Centrer le texte */
+}
+
+/* Liste des membres */
+h2 {
+    font-size: 1.8em;
+    color: #1e90ff;
+    margin: 30px 0 15px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin: 8px 0;
+    color: #333;
+}
+
+/* Lien de la chanson */
+a {
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+a:hover {
+    background-color: #ea1c91;
+}
